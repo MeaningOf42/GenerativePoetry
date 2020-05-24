@@ -3,8 +3,8 @@ function createPoem() {
   var poem_girl = `
 match on tinder there was a spark
 deep hot red burning in the heart
-youre just like a campfire - a pleasant heat that burns too close
-embers of a once love that used to be a great inferno
+your like a campfire - a pleasant warmth that burns too close
+embers of a once love that had been inferno long ago
 turn too ash; lose hope`;
   var poem_fire = `
 A fire is a living being you care for
