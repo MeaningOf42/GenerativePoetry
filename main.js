@@ -19,3 +19,10 @@ But the wind may blow life into the flames once more, and the embers may again b
   }
   document.getElementById("poem").innerHTML = poem_txt;
 }
+
+function showExample() {
+  console.log("running");
+  let poem_txt = "the ball was "
+  poem_txt += ["red", "green", "blue"][Math.floor(Math.random()*3)];
+  document.getElementById("poem").innerHTML = poem_txt;
+}
