@@ -20,6 +20,17 @@
       waiting for poem to be generated.
       </p>
       <button type="button" class="btn btn-primary" onclick="showExample()">Regenerate poem</button>
+      <br>
+      <br>
+      <p>This type of language for creating randomised peotry, would simplify the poem emmensly for the average person to write. For instance the javascript I wrote to make the above example is pretty nasty if you don't know how to code:</p>
+      <br>
+      <p class="text-light bg-dark">function showExample() {<br>
+        console.log("running");<br>
+        let poem_txt = "the ball was "<br>
+        poem_txt += ["red", "green", "blue"][Math.floor(Math.random()*3)];<br>
+        document.getElementById("poem").innerHTML = poem_txt;<br>
+      }<br>
+    </p>
     </div>
   </body>
 </html>
